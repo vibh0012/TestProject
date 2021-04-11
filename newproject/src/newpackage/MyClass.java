@@ -33,6 +33,7 @@ public class MyClass {
         String Current_url = driver.getCurrentUrl();
         System.out.println(Current_url);
         driver.findElement(By.linkText("Security Project")).click();
+        System.out.println("Sample change");
         driver.close();
         System.exit(0);
        
